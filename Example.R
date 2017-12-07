@@ -1,21 +1,10 @@
 #?(function) Help for that function
 
-?c
-  
-?args
-  
-  
-varName <- data # sets variables
-
-x <- 2
-  
- 
-old.dir <- getwd()
-
-
+#Help!
+help(topic)
+help.search("something")
+?topicOrFunction 
 getwd() # Shows current directory / file path
-
 ls() # Shows all objects in current directory.
-
-list.files()
+list.files() # --
 dir() # Shows all files in current directory
